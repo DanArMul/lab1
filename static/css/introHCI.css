@@ -1,6 +1,10 @@
 /* applies to anything of class "example-class-selector" */
 .example-class-selector {
 	margin-top: 2em;
+
+}
+.project {
+     margin-left: 20px;
 }
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
@@ -16,6 +20,16 @@ body {
      padding: 20px;
 }
 
+h1{
+     background-color: #778899;
+}
+
+h4{
+     background-color: #C0C0C0;
+}
+p{
+     background-color:   #808080;
+}
 .jumbotron {
 	position: relative;
 	background: none;
